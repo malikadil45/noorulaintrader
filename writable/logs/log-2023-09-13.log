@@ -1,0 +1,117 @@
+CRITICAL - 2023-09-13 01:22:00 --> Undefined variable $remainingBoxes
+in APPPATH\Views\addnewproduct.php on line 36.
+ 1 APPPATH\Views\addnewproduct.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $remainingBoxes', 'C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('addnewproduct', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('addnewproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->addnewproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 01:22:37 --> Undefined variable $remainingBoxes
+in APPPATH\Views\addnewproduct.php on line 36.
+ 1 APPPATH\Views\addnewproduct.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $remainingBoxes', 'C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('addnewproduct', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('addnewproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->addnewproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 01:22:48 --> syntax error, unexpected token ";"
+in APPPATH\Views\addnewproduct.php on line 23.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('addnewproduct', [], true)
+ 3 APPPATH\Controllers\Home.php(57): view('addnewproduct', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->addnewproduct()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 01:23:21 --> Unmatched ')'
+in APPPATH\Views\addnewproduct.php on line 27.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('addnewproduct', [], true)
+ 3 APPPATH\Controllers\Home.php(57): view('addnewproduct', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->addnewproduct()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 01:23:55 --> Undefined variable $remainingBoxes
+in APPPATH\Views\addnewproduct.php on line 36.
+ 1 APPPATH\Views\addnewproduct.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $remainingBoxes', 'C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('addnewproduct', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('addnewproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->addnewproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 01:24:03 --> Undefined variable $remainingBoxes
+in APPPATH\Views\addnewproduct.php on line 36.
+ 1 APPPATH\Views\addnewproduct.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $remainingBoxes', 'C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('addnewproduct', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('addnewproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->addnewproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 01:26:20 --> Undefined variable $remainingPiecesInBox
+in APPPATH\Views\addnewproduct.php on line 37.
+ 1 APPPATH\Views\addnewproduct.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $remainingPiecesInBox', 'C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('addnewproduct', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('addnewproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->addnewproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 01:29:16 --> Undefined variable $remainingPiecesInBox
+in APPPATH\Views\addnewproduct.php on line 37.
+ 1 APPPATH\Views\addnewproduct.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $remainingPiecesInBox', 'C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('addnewproduct', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('addnewproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->addnewproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 01:29:29 --> Undefined variable $remainingPiecesInBox
+in APPPATH\Views\addnewproduct.php on line 37.
+ 1 APPPATH\Views\addnewproduct.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $remainingPiecesInBox', 'C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('addnewproduct', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('addnewproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->addnewproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 01:29:56 --> Undefined variable $remainingPiecesInBox
+in APPPATH\Views\addnewproduct.php on line 37.
+ 1 APPPATH\Views\addnewproduct.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $remainingPiecesInBox', 'C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('addnewproduct', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('addnewproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->addnewproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-13 01:35:24 --> Undefined variable $remainingPiecesInBox
+in APPPATH\Views\addnewproduct.php on line 37.
+ 1 APPPATH\Views\addnewproduct.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $remainingPiecesInBox', 'C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('addnewproduct', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('addnewproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->addnewproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

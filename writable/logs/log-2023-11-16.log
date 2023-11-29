@@ -1,0 +1,21 @@
+CRITICAL - 2023-11-16 04:59:35 --> Call to a member function getResult() on bool
+in APPPATH/Models/UserModel.php on line 247.
+ 1 APPPATH/Controllers/Home.php(707): App\Models\UserModel->copytable('100043')
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 05:25:22 --> Call to a member function getResult() on bool
+in APPPATH/Models/UserModel.php on line 247.
+ 1 APPPATH/Controllers/Home.php(707): App\Models\UserModel->copytable('100044')
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 05:43:34 --> Call to a member function getResult() on bool
+in APPPATH/Models/UserModel.php on line 247.
+ 1 APPPATH/Controllers/Home.php(707): App\Models\UserModel->copytable('100045')
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()

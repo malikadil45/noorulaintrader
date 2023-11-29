@@ -1,0 +1,28 @@
+CRITICAL - 2023-10-18 10:24:08 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Headers already sent. You cannot change the session module\'s ini settings at this time', '/home/dduoydj7qm5c/nooruiaintrader.store/system/Session/Handlers/FileHandler.php', 72, [...])
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(72): ini_set('session.save_path', '/home/dduoydj7qm5c/nooruiaintrader.store/writable/session')
+ 3 SYSTEMPATH/Config/Services.php(671): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '209.127.48.108')
+ 4 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH/Config/Services.php(645): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 APPPATH/Controllers/Home.php(20): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 10:24:12 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Headers already sent. You cannot change the session module\'s ini settings at this time', '/home/dduoydj7qm5c/nooruiaintrader.store/system/Session/Handlers/FileHandler.php', 72, [...])
+ 2 SYSTEMPATH/Session/Handlers/FileHandler.php(72): ini_set('session.save_path', '/home/dduoydj7qm5c/nooruiaintrader.store/writable/session')
+ 3 SYSTEMPATH/Config/Services.php(671): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '209.127.48.108')
+ 4 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH/Config/Services.php(645): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH/Config/BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 APPPATH/Controllers/Home.php(20): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->index()
+10 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()

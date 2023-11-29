@@ -1,0 +1,46 @@
+ERROR - 2023-11-04 18:01:12 --> mysqli_sql_exception: Column 'productid' cannot be null in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(599): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->addproductprice()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 18:01:12 --> Column 'productid' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `productprice` (`productid`, `shopkeeper`, `boxprice`, `pieceprice`) VALUES (NULL, NULL, \'320\', NULL)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `productprice` (`productid`, `shopkeeper`, `boxprice`, `pieceprice`) VALUES (NULL, NULL, \'320\', NULL)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `productprice` (`productid`, `shopkeeper`, `boxprice`, `pieceprice`) VALUES (NULL, NULL, \'320\', NULL)')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `productprice` (`productid`, `shopkeeper`, `boxprice`, `pieceprice`) VALUES (:productid:, :shopkeeper:, :boxprice:, :pieceprice:)', [...], false)
+ 5 APPPATH/Controllers/Home.php(599): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->addproductprice()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-04 18:01:19 --> mysqli_sql_exception: Column 'productid' cannot be null in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(599): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->addproductprice()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-04 18:01:19 --> Column 'productid' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `productprice` (`productid`, `shopkeeper`, `boxprice`, `pieceprice`) VALUES (NULL, NULL, \'320\', NULL)', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `productprice` (`productid`, `shopkeeper`, `boxprice`, `pieceprice`) VALUES (NULL, NULL, \'320\', NULL)')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `productprice` (`productid`, `shopkeeper`, `boxprice`, `pieceprice`) VALUES (NULL, NULL, \'320\', NULL)')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `productprice` (`productid`, `shopkeeper`, `boxprice`, `pieceprice`) VALUES (:productid:, :shopkeeper:, :boxprice:, :pieceprice:)', [...], false)
+ 5 APPPATH/Controllers/Home.php(599): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->addproductprice()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,36 @@
+CRITICAL - 2023-09-12 08:02:35 --> Undefined variable $pageTitle
+in APPPATH\Views\header-dashboard.php on line 8.
+ 1 APPPATH\Views\header-dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageTitle', 'C:\\xampp\\htdocs\\noorulain\\app\\Views\\header-dashboard.php', 8)
+ 2 APPPATH\Views\addnewproduct.php(1): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\header-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('addnewproduct', [], true)
+ 6 APPPATH\Controllers\Home.php(136): view('addnewproduct')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->addproduct()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 08:06:05 --> Undefined variable $pageTitle
+in APPPATH\Views\header-dashboard.php on line 8.
+ 1 APPPATH\Views\header-dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageTitle', 'C:\\xampp\\htdocs\\noorulain\\app\\Views\\header-dashboard.php', 8)
+ 2 APPPATH\Views\addnewproduct.php(1): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\header-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('addnewproduct', [], true)
+ 6 APPPATH\Controllers\Home.php(136): view('addnewproduct')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->addproduct()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 08:06:08 --> Undefined variable $pageTitle
+in APPPATH\Views\header-dashboard.php on line 8.
+ 1 APPPATH\Views\header-dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pageTitle', 'C:\\xampp\\htdocs\\noorulain\\app\\Views\\header-dashboard.php', 8)
+ 2 APPPATH\Views\addnewproduct.php(1): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\header-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('addnewproduct', [], true)
+ 6 APPPATH\Controllers\Home.php(136): view('addnewproduct')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->addproduct()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

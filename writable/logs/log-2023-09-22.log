@@ -1,0 +1,11 @@
+CRITICAL - 2023-09-22 19:42:32 --> Undefined variable $getmemberdata
+in APPPATH\Views\sklists.php on line 182.
+ 1 APPPATH\Views\sklists.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getmemberdata', 'C:\\xampp\\htdocs\\noorulain\\app\\Views\\sklists.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\sklists.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('sklists', [], true)
+ 5 APPPATH\Controllers\Home.php(70): view('sklists', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->sklists()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

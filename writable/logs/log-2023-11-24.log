@@ -1,0 +1,39 @@
+CRITICAL - 2023-11-24 10:21:04 --> Call to a member function getResult() on bool
+in APPPATH/Models/UserModel.php on line 248.
+ 1 APPPATH/Controllers/Home.php(749): App\Models\UserModel->copytable()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 10:21:48 --> Call to a member function getResult() on bool
+in APPPATH/Models/UserModel.php on line 248.
+ 1 APPPATH/Controllers/Home.php(749): App\Models\UserModel->copytable()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 10:23:27 --> Call to a member function getResult() on bool
+in APPPATH/Models/UserModel.php on line 248.
+ 1 APPPATH/Controllers/Home.php(749): App\Models\UserModel->copytable()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 10:31:32 --> Call to a member function getResult() on bool
+in APPPATH/Models/UserModel.php on line 248.
+ 1 APPPATH/Controllers/Home.php(749): App\Models\UserModel->copytable()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-24 19:06:42 --> Trying to access array offset on value of type null
+in APPPATH/Views/productpricelists.php on line 76.
+ 1 APPPATH/Views/productpricelists.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(224): include('/home/dduoydj7qm5c/public_html/nooruiaintrader.store/app/Views/productpricelists.php')
+ 3 SYSTEMPATH/View/View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1176): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(187): view()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->productpricelists()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(69): CodeIgniter\CodeIgniter->run()

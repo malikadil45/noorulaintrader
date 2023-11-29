@@ -1,0 +1,28 @@
+CRITICAL - 2023-10-29 14:22:29 --> Call to undefined method App\Models\UserModel::selectDatarow
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Home.php(442): CodeIgniter\Model->__call('selectDatarow', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->updatetodaystock()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 14:22:44 --> Call to undefined method App\Models\UserModel::selectDatarow
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Home.php(442): CodeIgniter\Model->__call('selectDatarow', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->updatetodaystock()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 14:23:28 --> Call to undefined method App\Models\UserModel::selectDatarow
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Home.php(442): CodeIgniter\Model->__call('selectDatarow', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->updatetodaystock()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 14:24:27 --> Call to undefined method App\Models\UserModel::selectDatarow
+in SYSTEMPATH/Model.php on line 838.
+ 1 APPPATH/Controllers/Home.php(442): CodeIgniter\Model->__call('selectDatarow', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->updatetodaystock()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()

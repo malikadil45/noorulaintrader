@@ -1,0 +1,454 @@
+CRITICAL - 2023-11-09 08:45:55 --> Call to a member function getResult() on bool
+in APPPATH/Models/UserModel.php on line 228.
+ 1 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 08:50:51 --> Call to a member function getResult() on bool
+in APPPATH/Models/UserModel.php on line 228.
+ 1 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 08:55:29 --> Call to a member function getResult() on bool
+in APPPATH/Models/UserModel.php on line 228.
+ 1 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 08:58:38 --> Call to a member function getResult() on bool
+in APPPATH/Models/UserModel.php on line 228.
+ 1 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 08:58:46 --> Call to a member function getResult() on bool
+in APPPATH/Models/UserModel.php on line 228.
+ 1 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 09:09:27 --> Call to a member function getResult() on bool
+in APPPATH/Models/UserModel.php on line 228.
+ 1 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 09:14:52 --> Call to a member function getResult() on bool
+in APPPATH/Models/UserModel.php on line 228.
+ 1 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 09:16:05 --> Call to a member function getResult() on bool
+in APPPATH/Models/UserModel.php on line 228.
+ 1 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-09 11:55:47 --> Call to a member function getResult() on bool
+in APPPATH/Models/UserModel.php on line 228.
+ 1 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 11:58:36 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO ord...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ord...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ord...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/app/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO ord...')
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(659): App\Models\UserModel->copytable()
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->copytable()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-09 11:58:36 --> Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO orderproduct SELECT * FROM temporderproduct', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 4 APPPATH/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 5 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 12:01:50 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO ord...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ord...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ord...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/app/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO ord...')
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(659): App\Models\UserModel->copytable()
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->copytable()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-09 12:01:50 --> Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO orderproduct SELECT * FROM temporderproduct', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 4 APPPATH/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 5 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 12:05:34 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO ord...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ord...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ord...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/app/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO ord...')
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(659): App\Models\UserModel->copytable()
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->copytable()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-09 12:05:34 --> Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO orderproduct SELECT * FROM temporderproduct', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 4 APPPATH/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 5 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 12:07:56 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO ord...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ord...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ord...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/app/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO ord...')
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(659): App\Models\UserModel->copytable()
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->copytable()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-09 12:07:56 --> Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO orderproduct SELECT * FROM temporderproduct', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 4 APPPATH/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 5 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 12:10:17 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO ord...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ord...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ord...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/app/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO ord...')
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(659): App\Models\UserModel->copytable()
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->copytable()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-09 12:10:17 --> Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO orderproduct SELECT * FROM temporderproduct', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 4 APPPATH/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 5 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 12:13:14 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO ord...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ord...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ord...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/app/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO ord...')
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(659): App\Models\UserModel->copytable()
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->copytable()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-09 12:13:14 --> Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO orderproduct SELECT * FROM temporderproduct', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 4 APPPATH/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 5 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 12:18:47 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO ord...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ord...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ord...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/app/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO ord...')
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(659): App\Models\UserModel->copytable()
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->copytable()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-09 12:18:47 --> Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO orderproduct SELECT * FROM temporderproduct', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 4 APPPATH/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 5 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 12:29:28 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO ord...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ord...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ord...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/app/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO ord...')
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(659): App\Models\UserModel->copytable()
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->copytable()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-09 12:29:28 --> Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO orderproduct SELECT * FROM temporderproduct', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 4 APPPATH/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 5 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 12:32:39 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO ord...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ord...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ord...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/app/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO ord...')
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(659): App\Models\UserModel->copytable()
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->copytable()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-09 12:32:39 --> Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO orderproduct SELECT * FROM temporderproduct', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 4 APPPATH/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 5 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 12:41:30 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO ord...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ord...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ord...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/app/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO ord...')
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(659): App\Models\UserModel->copytable()
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->copytable()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-09 12:41:30 --> Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO orderproduct SELECT * FROM temporderproduct', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 4 APPPATH/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 5 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 12:43:59 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO ord...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ord...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ord...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/app/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO ord...')
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(659): App\Models\UserModel->copytable()
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->copytable()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-09 12:43:59 --> Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO orderproduct SELECT * FROM temporderproduct', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 4 APPPATH/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 5 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 12:56:31 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO ord...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ord...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ord...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/app/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO ord...')
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(659): App\Models\UserModel->copytable()
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->copytable()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-09 12:56:31 --> Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO orderproduct SELECT * FROM temporderproduct', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 4 APPPATH/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 5 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 13:02:52 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO ord...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ord...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ord...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/app/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO ord...')
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(659): App\Models\UserModel->copytable()
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->copytable()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-09 13:02:52 --> Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO orderproduct SELECT * FROM temporderproduct', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 4 APPPATH/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 5 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 13:04:21 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO ord...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ord...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ord...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/app/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO ord...')
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(659): App\Models\UserModel->copytable()
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->copytable()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-09 13:04:21 --> Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO orderproduct SELECT * FROM temporderproduct', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 4 APPPATH/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 5 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 13:07:02 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO ord...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ord...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ord...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/app/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO ord...')
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(659): App\Models\UserModel->copytable()
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->copytable()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-09 13:07:02 --> Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO orderproduct SELECT * FROM temporderproduct', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 4 APPPATH/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 5 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 13:12:19 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO ord...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ord...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ord...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/app/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO ord...')
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(659): App\Models\UserModel->copytable()
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->copytable()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-09 13:12:19 --> Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO orderproduct SELECT * FROM temporderproduct', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 4 APPPATH/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 5 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-09 13:13:57 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO ord...', 0)
+#1 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO ord...')
+#2 /home/dduoydj7qm5c/nooruiaintrader.store/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO ord...')
+#3 /home/dduoydj7qm5c/nooruiaintrader.store/app/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO ord...')
+#4 /home/dduoydj7qm5c/nooruiaintrader.store/app/Controllers/Home.php(659): App\Models\UserModel->copytable()
+#5 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(932): App\Controllers\Home->copytable()
+#6 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/dduoydj7qm5c/nooruiaintrader.store/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/dduoydj7qm5c/nooruiaintrader.store/index.php(70): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-11-09 13:13:57 --> Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO orderproduct SELECT * FROM temporderproduct', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 3 SYSTEMPATH/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 4 APPPATH/Models/UserModel.php(225): CodeIgniter\Database\BaseConnection->query('INSERT INTO orderproduct SELECT * FROM temporderproduct')
+ 5 APPPATH/Controllers/Home.php(659): App\Models\UserModel->copytable()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\Home->copytable()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(70): CodeIgniter\CodeIgniter->run()

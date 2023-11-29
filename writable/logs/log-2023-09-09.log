@@ -1,0 +1,51 @@
+CRITICAL - 2023-09-09 22:30:05 --> Invalid file: "admin/forgot-password.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/forgot-password.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('admin/forgot-password', [], true)
+ 3 APPPATH\Controllers\Home.php(17): view('admin/forgot-password', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->forgot_password()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 22:30:22 --> Invalid file: "forgot-password.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forgot-password.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('forgot-password', [], true)
+ 3 APPPATH\Controllers\Home.php(17): view('forgot-password', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->forgot_password()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 22:30:23 --> Invalid file: "forgot-password.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forgot-password.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('forgot-password', [], true)
+ 3 APPPATH\Controllers\Home.php(17): view('forgot-password', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->forgot_password()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 22:53:35 --> Undefined variable $breadcrumb
+in APPPATH\Views\sidebar.php on line 49.
+ 1 APPPATH\Views\sidebar.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'C:\\xampp\\htdocs\\noorulain\\app\\Views\\sidebar.php', 49)
+ 2 APPPATH\Views\dashboard.php(5): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(57): view('dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-09 22:54:41 --> Undefined variable $breadcrumb
+in APPPATH\Views\sidebar.php on line 49.
+ 1 APPPATH\Views\sidebar.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'C:\\xampp\\htdocs\\noorulain\\app\\Views\\sidebar.php', 49)
+ 2 APPPATH\Views\dashboard.php(5): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(57): view('/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->dashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

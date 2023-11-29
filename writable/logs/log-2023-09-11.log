@@ -1,0 +1,12 @@
+CRITICAL - 2023-09-11 22:20:53 --> Undefined variable $breadcrumb
+in APPPATH\Views\sidebar.php on line 49.
+ 1 APPPATH\Views\sidebar.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $breadcrumb', 'C:\\xampp\\htdocs\\noorulain\\app\\Views\\sidebar.php', 49)
+ 2 APPPATH\Views\addnewproduct.php(5): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\noorulain\\app\\Views\\addnewproduct.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('addnewproduct', [], true)
+ 6 APPPATH\Controllers\Home.php(39): view('addnewproduct', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->addnewproduct()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
