@@ -6,7 +6,7 @@
 
     <?php include('sidebar.php'); ?>
 
-    <!-- Content Wrapper. Contains page content -->
+    <!-- Content Wrapper. Contains page content adil-->
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
         <section class="content-header">
